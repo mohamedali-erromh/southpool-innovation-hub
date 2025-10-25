@@ -1,4 +1,5 @@
 import heroImage from "@/assets/hero-lab.jpg";
+import logo from "@/assets/southpool-logo.png";
 
 const Hero = () => {
   return (
@@ -11,9 +12,9 @@ const Hero = () => {
       </div>
       
       <div className="relative z-10 container mx-auto px-4 lg:px-8 text-center text-white">
-        <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold mb-6 animate-fade-in">
-          SOUTHPOOL
-        </h1>
+        <div className="flex justify-center mb-8 animate-fade-in">
+          <img src={logo} alt="Southpool Logo" className="h-24 md:h-32 lg:h-40 w-auto" />
+        </div>
         <p className="text-xl md:text-2xl lg:text-3xl mb-8 max-w-3xl mx-auto animate-fade-in-delay">
           Ricerca e Sviluppo per Materiali Innovativi e Acustica Ambientale
         </p>

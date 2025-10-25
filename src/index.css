@@ -17,16 +17,16 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 210 40% 15%;
 
-    --primary: 203 89% 25%;
+    --primary: 150 100% 45%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 142 76% 36%;
+    --secondary: 195 100% 50%;
     --secondary-foreground: 0 0% 100%;
 
     --muted: 210 40% 96.1%;
     --muted-foreground: 215.4 16.3% 46.9%;
 
-    --accent: 199 89% 48%;
+    --accent: 170 100% 48%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
@@ -38,11 +38,11 @@ All colors MUST be HSL.
 
     --radius: 0.75rem;
 
-    --gradient-hero: linear-gradient(135deg, hsl(203 89% 25%) 0%, hsl(199 89% 48%) 100%);
+    --gradient-hero: linear-gradient(135deg, hsl(150 100% 45%) 0%, hsl(195 100% 50%) 100%);
     --gradient-section: linear-gradient(180deg, hsl(0 0% 100%) 0%, hsl(210 40% 98%) 100%);
     
-    --shadow-card: 0 4px 6px -1px hsl(203 89% 25% / 0.1), 0 2px 4px -1px hsl(203 89% 25% / 0.06);
-    --shadow-hover: 0 10px 15px -3px hsl(203 89% 25% / 0.2), 0 4px 6px -2px hsl(203 89% 25% / 0.1);
+    --shadow-card: 0 4px 6px -1px hsl(150 100% 45% / 0.1), 0 2px 4px -1px hsl(150 100% 45% / 0.06);
+    --shadow-hover: 0 10px 15px -3px hsl(150 100% 45% / 0.2), 0 4px 6px -2px hsl(150 100% 45% / 0.1);
     
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 
@@ -73,16 +73,16 @@ All colors MUST be HSL.
     --popover: 210 40% 12%;
     --popover-foreground: 0 0% 95%;
 
-    --primary: 199 89% 48%;
+    --primary: 150 100% 45%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 142 76% 36%;
+    --secondary: 195 100% 50%;
     --secondary-foreground: 0 0% 100%;
 
     --muted: 210 40% 18%;
     --muted-foreground: 215 20.2% 65.1%;
 
-    --accent: 203 89% 35%;
+    --accent: 170 100% 48%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 62.8% 50%;
@@ -92,7 +92,7 @@ All colors MUST be HSL.
     --input: 210 40% 20%;
     --ring: 199 89% 48%;
     
-    --gradient-hero: linear-gradient(135deg, hsl(203 89% 20%) 0%, hsl(199 89% 35%) 100%);
+    --gradient-hero: linear-gradient(135deg, hsl(150 100% 35%) 0%, hsl(195 100% 40%) 100%);
     --gradient-section: linear-gradient(180deg, hsl(210 40% 10%) 0%, hsl(210 40% 12%) 100%);
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
